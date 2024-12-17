@@ -1,6 +1,7 @@
+'use client'
 import { useState } from 'react';
 import { FaMicrophone } from 'react-icons/fa'; // Import the microphone icon
-import { useRouter } from 'next/router'; // Import the Next.js router
+import { useRouter } from 'next/navigation'; // Import the Next.js router
 
 export default function Page() {
   const [isLoggedIn, setIsLoggedIn] = useState(false); // Track user authentication
